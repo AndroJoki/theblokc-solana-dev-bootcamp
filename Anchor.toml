@@ -1,0 +1,18 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+solana_webapp = "CyeBbYJ6xgihWbQLraz6TPAS1mfhatv3BXFUhfcNXfnu"
+
+[programs.devnet]
+solana_webapp = "CyeBbYJ6xgihWbQLraz6TPAS1mfhatv3BXFUhfcNXfnu"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/whoisdro/my-solana-wallet/my-keypair.json"
+
+[scripts]
+test = "ts-node tests/solana_webapp.ts"
